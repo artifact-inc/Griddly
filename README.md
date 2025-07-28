@@ -12,3 +12,5 @@ Then run:
 ```bash
 source venv/bin/activate
 ```
+
+Check GRIDDLY_README.md for more details on the project

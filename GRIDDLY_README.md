@@ -1,5 +1,3 @@
-# Check ARTIFACT_README.md for updated install details
-
 # <p align="center">![Griddly](resources/logo.png)</p>
 <div align="center">
 
