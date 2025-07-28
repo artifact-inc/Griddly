@@ -15,6 +15,8 @@ brew install cmake ninja
 brew link cmake
 pip install "conan<2.0"
 
+conan profile update settings.compiler.version=16 default
+
 # We'll build Python bindings locally instead of installing pre-built griddly
 
 # Update dependencies configuration
