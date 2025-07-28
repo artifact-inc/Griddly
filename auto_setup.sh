@@ -134,3 +134,5 @@ fi
 
 echo "Build complete! Binaries are available in Debug/bin/"
 ls -la Debug/bin/
+
+rm -rf cmake-3.30.5-macos-universal.tar.gz
