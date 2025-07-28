@@ -1,24 +1,20 @@
 #!/bin/bash
 set -e
 
-# Activate virtual environment if it exists
-if [ -d "venv" ]; then
-    echo "Activating existing virtual environment..."
-    source venv/bin/activate
-fi
-
-# Install system dependencies
-echo "Installing system dependencies..."
-brew install python@3.11 cmake ninja
-brew link cmake
-pip install "conan<2.0"
-
 # Set up Python environment
 if [ ! -d "venv" ]; then
+    brew install python@3.11
     echo "Setting up Python environment..."
     python3.11 -m venv venv
 fi
 source venv/bin/activate
+
+# Install system dependencies
+echo "Installing system dependencies..."
+brew install cmake ninja
+brew link cmake
+pip install "conan<2.0"
+
 # We'll build Python bindings locally instead of installing pre-built griddly
 
 # Update dependencies configuration
