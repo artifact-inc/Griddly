@@ -150,3 +150,4 @@ python/testdir/
 griddlyConfig.cmake
 griddlyConfigVersion.cmake
 
+**/venv/
