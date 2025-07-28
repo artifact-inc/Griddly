@@ -13,4 +13,12 @@ Then run:
 source venv/bin/activate
 ```
 
+Now try running:
+
+```bash
+python sokoban_ascii.py
+```
+
+for a janky test program to at least confirm your setup works
+
 Check GRIDDLY_README.md for more details on the project
